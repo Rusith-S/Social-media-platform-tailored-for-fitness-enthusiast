@@ -1,0 +1,172 @@
+.Russa_add_pr_shd_main-user-info select option[disabled] {
+    color: #bdbdbd; /* Change the color to gray or any other color you prefer */
+  }
+
+.Russa_Update_Current_Workout_Status {
+  .Russa_modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(20, 20, 20, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 100;
+  }
+
+  .Russa_modal-content {
+    // background-color: #0c0c0c;
+    
+    background: linear-gradient(90deg, #13233f, #0e1a2b, #14222f);
+    padding-top: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    max-width: 600px; /* Adjust the max-width as needed */
+    width: 100%; /* Ensure the modal is responsive */
+    max-height: 100%;
+    overflow: auto;
+    position: relative;
+    border: 2px;
+    box-shadow: 0 0 10px #bdbdbd;
+  }
+
+  .Russa_close-modal-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      color: #ff0000;
+  }
+  
+
+  .Russa_add_pr_shd_form-title {
+      font-size: 26px;
+      font-weight: 600;
+      text-align: center;
+      padding-bottom: 15px;
+      margin-top: 15px;
+      margin-bottom: 25px;
+      color: #b3cde0;
+      border-bottom: solid 1px #7c7a7a;
+  }
+
+  .Russa_add_pr_shd_main-user-info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 10px 0;
+  }
+
+  .user-input-box {
+      flex-basis: calc(50% - 20px); /* Adjust the width of each input box */
+      padding-bottom: 15px;
+
+      label {
+          display: block;
+          color: #b3cde0;
+          font-size: 20px;
+          font-weight: 500;
+          margin-bottom: 5px;
+      }
+
+      input,
+      select {
+          width: 100%;
+          height: 40px;
+          border-radius: 7px;
+          outline: none;
+          border: 1px solid #b3cde0;
+          padding: 0 10px;
+          background-color: transparent;
+          color: #b3cde0;
+
+          &::placeholder {
+              color: #b3cde0; /* Change placeholder text color to white */
+          }
+      }
+
+      textarea{
+        width: 100%;
+        height: 130px;
+        border-radius: 7px;
+        outline: none;
+        border: 1px solid #b3cde0;
+        padding: 0 10px;
+        background-color: transparent;
+        color: #b3cde0;
+
+        &::placeholder {
+            color: #b3cde0; /* Change placeholder text color to white */
+        }
+      }
+
+      select {
+          option {
+              color: #b3cde0; /* Change the text color of dropdown options to black */
+          }
+      }
+  }
+  .marking-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    .input-row {
+      flex: 1;
+      margin-right: 10px;
+
+      label {
+        display: block;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 5px;
+        color: #b3cde0;
+      }
+
+      input {
+        width: 100%;
+        height: 40px;
+        border-radius: 7px;
+        outline: none;
+        border: 1px solid #b3cde0;
+        padding: 0 10px;
+        background-color: transparent;
+        color: #b3cde0;
+      }
+    }
+  }
+  .form-submit-btn {
+      margin-top: 30px;
+      margin-bottom: 25px;
+
+      input[type="submit"] {
+          display: block;
+          width: 100%;
+          font-size: 20px;
+          padding: 10px;
+          border: none;
+          border-radius: 3px;
+          color: #d5d7d8;
+          background: #1a399e; /* Button gradient colors */
+          cursor: pointer;
+          transition: background-color 0.3s;
+
+          &:hover {
+              background: #2c49a8; /* Button hover gradient colors */
+          }
+      }
+  }
+
+  @media (max-width: 600px) {
+      .user-input-box {
+          flex-basis: 100%;
+      }
+  }
+}

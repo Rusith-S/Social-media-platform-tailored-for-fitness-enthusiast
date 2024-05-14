@@ -1,0 +1,86 @@
+.red-dot {
+    display: inline-block; /* Ensures the dot appears inline with the text */
+    width: 10px; /* Width of the dot */
+    height: 10px; /* Height of the dot */
+    background-color: red; /* Color of the dot */
+    border-radius: 50%; /* Makes the shape a circle */
+    margin-right: 8px; /* Adds space between the dot and the text */
+  }
+
+
+  .green-dot {
+    display: inline-block; /* Ensures the dot appears inline with the text */
+    width: 10px; /* Width of the dot */
+    height: 10px; /* Height of the dot */
+    background-color: rgb(43, 255, 0); /* Color of the dot */
+    border-radius: 50%; /* Makes the shape a circle */
+    margin-right: 8px; /* Adds space between the dot and the text */
+  }
+
+  .yellow-dot {
+    display: inline-block; /* Ensures the dot appears inline with the text */
+    width: 10px; /* Width of the dot */
+    height: 10px; /* Height of the dot */
+    background-color: rgb(242, 255, 0); /* Color of the dot */
+    border-radius: 50%; /* Makes the shape a circle */
+    margin-right: 8px; /* Adds space between the dot and the text */
+  }
+
+  .blue-dot {
+    display: inline-block; /* Ensures the dot appears inline with the text */
+    width: 10px; /* Width of the dot */
+    height: 10px; /* Height of the dot */
+    background-color: rgb(0, 229, 255); /* Color of the dot */
+    border-radius: 50%; /* Makes the shape a circle */
+    margin-right: 8px; /* Adds space between the dot and the text */
+  }
+  
+  /* Popup and overlay styles */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Make sure the overlay is on top */
+}
+
+.popup-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 90%; /* Make sure it is responsive */
+  z-index: 1001; /* Keep it above the overlay */
+}
+
+/* Optional: Add some styles for your buttons and form inputs if needed */
+
+/* CSS */
+.meal-plans-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards within the container */
+}
+
+.col-sm-6 {
+  flex: 1; /* Allow each card to take up equal space */
+  max-width: 50%; /* Set the maximum width to 50% of the container to allow two cards per row */
+  padding: 10px; /* Add some padding between the cards */
+}
+
+.custom-modal {
+  width: 1000px;
+  margin: auto;
+}
+
+/* styles.css */
+.custom-modal-dialog {
+  width: 1000px; /* Set the width to your desired value */
+   /* Center the modal dialog */
+}
+

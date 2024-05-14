@@ -1,0 +1,190 @@
+.LoginSignup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsla(0, 5%, 72%, 0.603);
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  width: 600px; /* Adjust width as needed */
+
+}
+
+.LoginSignup h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 400px; /* Adjust width as needed */
+
+}
+
+.LoginSignup form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.LoginSignup label {
+  font-weight: bold;
+}
+
+.LoginSignup input[type="email"],
+.LoginSignup input[type="password"] {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.LoginSignup button[type="submit"] {
+  background-color: #000000; /* Green color */
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 200px; /* Adjust width as needed */
+  text-align: center;
+  margin-left: 100px;
+
+
+
+}
+
+.LoginSignup button[type="submit"]:hover {
+  background-color: #1f0101; /* Darker green on hover */
+}
+
+.LoginSignup p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.LoginSignup button[type="button"] {
+  background-color: #e7e7e7; /* Light gray color */
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 400px; /* Adjust width as needed */
+
+}
+.LoginSignup button[type="button1"] {
+  background-color: #e7e7e7; /* Light gray color */
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+ 
+
+}
+.LoginSignup button[type="button2"] {
+  background-color: #e7e7e7; /* Light gray color */
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+ 
+
+}
+
+.LoginSignup button[type="button"]:hover {
+  background-color: #ccc; /* Darker gray on hover */
+}
+
+
+
+
+
+
+
+.LoginSignup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsla(0, 5%, 72%, 0.603);
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  width: 600px; /* Adjust width as needed-jhs*/
+}
+
+.LoginSignup h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bolder;
+  width: 400px; /* Adjust width as needed */
+}
+
+.LoginSignup form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.LoginSignup label {
+  font-weight: bold;
+}
+
+.LoginSignup input[type="email"],
+.LoginSignup input[type="password"] {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.LoginSignup button[type="submit"] {
+  background-color: #000000; /* Green color */
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 200px; /* Adjust width as needed */
+  text-align: center;
+  margin-left: 100px;
+}
+
+.LoginSignup button[type="submit"]:hover {
+  background-color: #1f0101; /* Darker green on hover */
+}
+
+.LoginSignup p {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Styling for the icon images */
+.LoginSignup button[type="button"] {
+  background-color: #e7e7e7; /* Light gray color */
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.LoginSignup .icon {
+  width: 20px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+}
+
+.LoginSignup button[type="button"]:hover {
+  background-color: #ccc; /* Darker gray on hover */
+}
+
+
+
+
+

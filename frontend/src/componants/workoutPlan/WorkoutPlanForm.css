@@ -1,0 +1,51 @@
+/* AddWorkoutPlan.css */
+.add-workout-plan {
+    background-color: #333; /* Dark gray background */
+    color: #f0f0f0; /* Light text color for good contrast */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.add-workout-plan .title {
+    color: #f0f0f0; /* Light text color for title */
+    margin-bottom: 20px;
+}
+
+.add-workout-plan label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.add-workout-plan input[type="text"] {
+    background-color: #444;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+}
+
+.add-workout-plan input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.add-workout-plan .interaction-buttons {
+    margin-top: 20px;
+}
+
+.add-workout-plan .interaction-buttons .btn {
+    background-color: #007bff; /* Bootstrap primary button color */
+    color: white;
+    margin-right: 10px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.add-workout-plan .interaction-buttons .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

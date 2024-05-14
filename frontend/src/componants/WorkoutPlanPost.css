@@ -1,0 +1,32 @@
+WorkoutPlanPost.css
+.workout-plan-post {
+    background-color: #333; /* Dark gray background */
+    color: #f0f0f0; /* Light text color for good contrast */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    color: #f0f0f0; /* Light text color for title */
+}
+
+.workout-section h4 {
+    color: #f0f0f0; /* Light color for section headers */
+}
+
+.interaction-buttons {
+    margin-top: 10px;
+}
+
+.interaction-buttons .btn {
+    background-color: #007bff; /* Bootstrap primary button color */
+    color: white;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.interaction-buttons .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
